@@ -52,7 +52,7 @@ module.exports = {
         message.reply({embeds: [new Discord.MessageEmbed()
         .setAuthor("Server Information About: " +  message.guild.name, message.guild.iconURL({
           dynamic: true
-        }), "https://clan.milrato.eu")
+        }))
         .setColor(ee.color)
         .addField("❱ Owner", `${message.guild.owner.user}\n\`${message.guild.owner.user.tag}\``, true)
         .addField("❱ Created On", "\`" + moment(message.guild.createdTimestamp).format("DD/MM/YYYY") + "\`\n" + "`"+ moment(message.guild.createdTimestamp).format("hh:mm:ss") +"`", true)

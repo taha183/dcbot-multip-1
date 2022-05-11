@@ -709,7 +709,7 @@ function onCoolDown(message, command) {
       client.user.setPresence({
         activities: [
             {
-                name: "Codes 👀",
+                name: "my coding 👀",
                 type: "WATCHING"
             }
         ],
